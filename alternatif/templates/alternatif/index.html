@@ -1,0 +1,87 @@
+{% extends "dasar.html" %}
+{% block satu %}
+
+<div class="content bg-dark">
+    <div class="container-fluid">
+      <div class="card card-info">
+        <div class="card-header text-center padding-top">
+          <h2> Kelompok 8 - SPK LAPTOP Metode SAW</h2>
+          <div class="card card-info text-left">
+            <body>
+            <form method="POST">
+            {% csrf_token %}
+                <table class="container">
+                    <tr>
+                    <th><div class="form-row">
+                        <div class="form-group col-md-4">
+                        <label>{{table.kodealternatif.label}}</label>
+                        {{table.kodealternatif}}
+                        </div>
+                    </div></th>
+                    <th><div class ="form-row">
+                        <div class = "form-group col-md-4">
+                        <label>{{table.namaalternatif.label}}</label>
+                        {{table.namaalternatif}}
+                        </div>
+                    </div></th>
+                    </tr>
+                    <tr>
+                    <th><div class = "form-row">
+                        <div class="form-group col-md-4">
+                        <label>{{table.c1.label}}</label>
+                        {{table.c1}}
+                        </div>
+                    </div></th>
+                    <th><div class = "form-row">
+                        <div class="form-group col-md-4">
+                        <label>{{table.c2.label}}</label>
+                        {{table.c2}}
+                        </div>
+                    </div></tr>
+                    <tr>
+                    <th><div class = "form-row">
+                        <div class="form-group col-md-4">
+                        <label>{{table.c3.label}}</label>
+                        {{table.c3}}
+                        </div>
+                    </div></th>
+                    <th><div class = "form-row">
+                        <div class="form-group col-md-4">
+                        <label>{{table.c4.label}}</label>
+                        {{table.c4}}
+                        </div>
+                    </div></th>
+                    </tr>
+                    <tr>
+                    <th><div class = "form-row">
+                        <div class="form-group col-md-4">
+                        <label>{{table.c5.label}}</label>
+                        {{table.c5}}
+                        </div>
+                    </div></th>
+                    <th><div class = "form-row">
+                        <div class="form-group col-md-4">
+                        <label>{{table.c6.label}}</label>
+                        {{table.c6}}
+                        </div>
+                    </div></th>
+                    </tr>
+                    <tr>
+                    <th><div class = "form-row">
+                        <div class="form-group col-md-4">
+                        <label>{{table.c7.label}}</label>
+                        {{table.c7}}
+                        </div>
+                    </div></th>
+
+            <th><button type="submit" class="btn btn-primary">{{tombol}}</button></th>
+            </form>
+            </tr>
+            </table>        
+            </div>
+        </body>    
+        </div>
+    </div>
+</div>
+</div>
+{% endblock satu %}
