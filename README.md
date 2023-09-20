@@ -1,5 +1,6 @@
 # SPK_Pemilihan_Laptop_using_DJango
 Final project 6rd semester Decision Support Systems (DSS)
+Teacher: Bu Irmma Dwijayanti
 
 This project using django, requirement to run this project:
 <ul>
@@ -11,3 +12,5 @@ This project using django, requirement to run this project:
 <li>  migrate the database  <code>python manage.py migrate </code> next  <code>python manage.py migration </code> </li>
 <li>  run the django server using python  <code>manage.py runserver </code> </li>
 </ul>
+
+Important: Should have Mysql, after that import the database into SQL and run the program (check the requirement)
